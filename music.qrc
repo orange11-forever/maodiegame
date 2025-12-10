@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC>
+  <qresource prefix="/new/prefix2">
+    <file>image/不再曼波_爱给网_aigei_com.mp3</file>
+    <file>image/孤高曼波_爱给网_aigei_com.mp3</file>
+    <file>image/曼波：哥我求你了，不要再针对我了_爱给网_aigei_com.mp3</file>
+    <file>image/曼波：三倍曼波_爱给网_aigei_com.mp3</file>
+    <file>image/不再曼波_爱给网_aigei_com.wav</file>
+    <file>image/孤高曼波_爱给网_aigei_com.wav</file>
+    <file>image/曼波：哥我求你了，不要再针对我了_爱给网_aigei_com.wav</file>
+    <file>image/曼波三倍曼波_爱给网_aigei_com.wav</file>
+    <file>image/曼波哥我求你了不要再针对我了_爱给网_aigei_com.wav</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/0F92BCD49C0CEFE2D4EEEDF11396BECE.jpg</file>
+        <file>image/31B280A7C6282824929504B19A84A154.jpg</file>
+        <file>image/424BAAF4674FDCFDBBA76ABB6B9B6808.jpg</file>
+        <file>image/552BB395450A27FCD49B8B5305478AFC.jpg</file>
+        <file>image/73417F82CCD03885D9E180A49C9E0D7C.jpg</file>
+        <file>image/859575F4EE243344A7856C7518D17934.jpg</file>
+        <file>image/1602572372026B379FAD31DA79006E2A.jpg</file>
+        <file>image/F98780DC0E9A35A7FCEDDF6E6C1C4FA0.jpg</file>
+        <file>image/OIP-C (1).jpg</file>
+        <file>image/OIP-C (2).jpg</file>
+        <file>image/OIP-C (3).jpg</file>
+        <file>image/OIP-C.jpg</file>
+        <file>image/9d3bd59e928d905f3fd37ae0e3dd760c.jpg</file>
+        <file>image/98aec7baa3cbff2a2576f9a0a123449b.jpg</file>
+        <file>image/B1F247FF7A5C65814092C7BD6549514C.jpg</file>
+        <file>image/EBCFB6B52762AD6F70E3DB1A2193C31C.jpg</file>
+        <file>image/6825fc13369e9GO7.jpg</file>
+        <file>image/6831b54a86efeuvI.gif</file>
+        <file>image/20230220174504_18139.gif</file>
+        <file>image/F18CEFAD11A216604644DDC38D027B32.jpg</file>
+        <file>image/1D6FFFF59DE1D5B8BD23B7C1BCAE6FF3.gif</file>
+        <file>image/387EE9C9CDE1E5F5E582204F37B7A777.gif</file>
+        <file>image/0335EB749F0B3DCA1EBE0CD6B670FD63.gif</file>
+        <file>image/6D3D8595FEEE1A8FC918C2F18C9A7F03.jpg</file>
+        <file>image/63828C268D1E60535CA6F0904D0DBFEA.jpg</file>
+        <file>image/E7AF67868D503717BD39D33645A95511.jpg</file>
+        <file>image/8EB40815C5A35D9BDF3BB8C665441E0E.jpg</file>
+        <file>image/459EE67CBAE389A258A81BFC94291139.jpg</file>
+        <file>image/6342280b_E835615_ddbb3f2d.png</file>
+    </qresource>
+</RCC>

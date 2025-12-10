@@ -1,54 +1,327 @@
-# C++ objects and libs
+# =============================================================================
+# SAST Readium - Comprehensive .gitignore
+# =============================================================================
+
+# =============================================================================
+# C/C++ Build Artifacts
+# =============================================================================
+
+# Prerequisites
+*.d
+
+# Compiled Object files
 *.slo
 *.lo
 *.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
+*.obj
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug information files
+*.dwo
+
+# =============================================================================
+# Build Systems
+# =============================================================================
+
+# CMake
+build/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!CMakeLists.txt
+CMakeLists.txt.user*
+CTestTestfile.cmake
+Testing/
+
+# xmake
+.xmake/
+build/
+.build/
+*.xmake
+
+# Make
+*.make
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# =============================================================================
+# Qt Framework
+# =============================================================================
+
+# Qt MOC files
 moc_*.cpp
 moc_*.h
 qrc_*.cpp
+
+# Qt UI files
 ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
+
+# Qt translation files
 *.qm
-*.prl
+*.ts.bak
 
-# Qt unit tests
-target_wrapper.*
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+*.creator
+*.creator.user*
+*.includes
+*.files
+*.config
+*.cflags
+*.cxxflags
 
-# QtCreator
+# Qt temporary files
 *.autosave
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
+# =============================================================================
+# IDEs and Editors
+# =============================================================================
 
-# QtCreator CMake
-CMakeLists.txt.user*
+# Visual Studio Code
+.vscode/
+*.code-workspace
 
-# QtCreator 4.8< compilation database
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates.json
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# Language Servers and Tools
+# =============================================================================
+
+# clangd
+.clangd/
+.cache/
 compile_commands.json
+compile_flags.txt
 
-# QtCreator local machine specific files for imported projects
-*creator.user*
+# ccls
+.ccls-cache/
 
-*_qmlcache.qrc
+# rtags
+.rtags/
+
+# =============================================================================
+# Package Managers
+# =============================================================================
+
+# vcpkg
+vcpkg_installed/
+.vcpkg-root
+
+# Conan
+conandata.yml
+conanfile.txt.user
+conanbuildinfo.*
+conan.lock
+
+# =============================================================================
+# Operating Systems
+# =============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# Application Specific
+# =============================================================================
+
+# Generated config files
+app/config.h
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache directories
+.cache/
+
+# User data
+user_data/
+settings/
+*.ini
+*.conf
+
+# =============================================================================
+# Development and Testing
+# =============================================================================
+
+# Demo and test files
+demo/
+*.pdf
+
+# Test results
+test_results/
+*.xml
+*.junit
+
+# Coverage reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Profiling data
+*.prof
+gmon.out
+
+# Valgrind
+*.valgrind
+
+# =============================================================================
+# Documentation
+# =============================================================================
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/xml/
+Doxyfile.bak
+
+# =============================================================================
+# Deployment
+# =============================================================================
+
+# Installer files
+*.msi
+*.deb
+*.rpm
+*.dmg
+*.pkg
+
+# Distribution directories
+dist/
+release/
+deploy/
+package/
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Patches
+*.patch
+*.diff
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+.claude/
